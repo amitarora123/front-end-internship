@@ -76,7 +76,6 @@ export default function TemplateDemo() {
                     margin: "5px",
                   }}
                 >
-                  // @ts-ignore
                   <FaCheck onClick={(e) => op.current?.toggle(e)} />
                   <OverlayPanel ref={op}>
                     <div
